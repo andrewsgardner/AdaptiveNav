@@ -19,3 +19,5 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
    The ```width=device-width``` value ensures that the menu will adapt itself to fit the screen size of each device that renders it.
 
 2. **Include AdaptiveNav Stylesheet**
+
+   To use AdaptiveNav, reference the included ```adaptivenav.css``` stylesheet in the ```<head>``` section of your HTML document.
