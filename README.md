@@ -21,3 +21,5 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 2. **Include AdaptiveNav Stylesheet**
 
    To use AdaptiveNav, reference the included ```adaptivenav.css``` stylesheet in the ```<head>``` section of your HTML document.
+   
+   ```<link rel="stylesheet" type="text/css" href="css/adaptivenav.css"/>```
