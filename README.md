@@ -12,4 +12,4 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 ## Usage
 1. Set the viewport
 
-Insert this responsive meta viewport tag into the <head> section of your HTML document:
+Insert this responsive meta viewport tag into the ```<head>``` section of your HTML document:
