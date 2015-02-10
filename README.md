@@ -14,6 +14,6 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 
    Insert this responsive meta viewport tag into the ```<head>``` section of your HTML document:
 
-```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
+   ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
 
-The ```width=device-width``` value ensures that the menu will adapt itself to fit the screen size of each device that renders it.
+   The ```width=device-width``` value ensures that the menu will adapt itself to fit the screen size of each device that renders it.
