@@ -10,6 +10,6 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 * Cross-browser compatibility.
 
 ## Usage
-1. Set the viewport
+1. **Set the viewport**
 
 Insert this responsive meta viewport tag into the ```<head>``` section of your HTML document:
