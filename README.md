@@ -16,7 +16,7 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 
    ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
 
-2. **Include AdaptiveNav Stylesheet**
+2. **Include the AdaptiveNav Stylesheet**
 
    Reference the included ```adaptivenav.css``` stylesheet in the ```<head>``` section of your HTML document.
    
