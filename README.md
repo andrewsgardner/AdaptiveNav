@@ -3,3 +3,8 @@ AdaptiveNav is a responsive navigation menu coded with pure CSS. This design uti
 
 ## Demo
 Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
+
+## Features
+* Pure CSS responsive design.
+* Smooth performance on computers, tablets, and smartphones.
+* Cross-browser compatibility.
