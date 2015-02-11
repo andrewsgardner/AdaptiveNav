@@ -26,7 +26,8 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 
    Insert the following markup into the ```<body>``` section of your HTML Document:
    
-   ```<header class="clearfix">
+   ```
+   <header class="clearfix">
 	   <h1 class="logo"><a href="#">Andrew S. Gardner</a></h1>
 	   <div class="menu">
 		   <ul>
@@ -37,5 +38,6 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
    			<li><a href="#">Link 5</a></li>
 		   </ul>
 	   </div>
-   </header>```
+   </header>
+   ```
 
