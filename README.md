@@ -40,4 +40,6 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 	   </div>
    </header>
    ```
+## Media Queries
+If necessary, you can change these breakpoints to best suit the needs of your website:
 
