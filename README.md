@@ -43,9 +43,10 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 ## Media Queries
 If necessary, you can change these breakpoints to best suit the needs of your website:
 
-First Header | Second Header
+Breakpoints | Intended Devices
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Screen widths &#8805; 940px | Computers
+Screen widths 939px &mdash; 639px | Tablets
+Screen widths &#8804; 640px | Smartphones
 
 &#8805;
