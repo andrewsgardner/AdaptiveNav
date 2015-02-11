@@ -46,7 +46,6 @@ If necessary, you can change these breakpoints to best suit the needs of your we
 Breakpoints | Intended Devices
 ------------ | -------------
 Screen widths &#8805; 940px | Computers
-Screen widths 939px &mdash; 639px | Tablets
+Screen widths between 939px and 639px | Tablets
 Screen widths &#8804; 640px | Smartphones
 
-&#8805;
