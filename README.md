@@ -25,17 +25,17 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 3. **Add the Menu Markup**
 
    Insert the following markup into the ```<body>``` section of your HTML Document:
-   
-   ```
+
+   ```   
    <header class="clearfix">
 	   <h1 class="logo"><a href="#">Andrew S. Gardner</a></h1>
 	   <div class="menu">
 		   <ul>
-   			<li><a href="#" class="active">Link 1</a></li>
-   			<li><a href="#">Link 2</a></li>
-   			<li><a href="#">Link 3</a></li>
-   			<li><a href="#">Link 4</a></li>
-   			<li><a href="#">Link 5</a></li>
+			   <li><a href="#" class="active">Link 1</a></li>
+			   <li><a href="#">Link 2</a></li>
+			   <li><a href="#">Link 3</a></li>
+			   <li><a href="#">Link 4</a></li>
+			   <li><a href="#">Link 5</a></li>
 		   </ul>
 	   </div>
    </header>
