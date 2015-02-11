@@ -43,3 +43,9 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 ## Media Queries
 If necessary, you can change these breakpoints to best suit the needs of your website:
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+&#8805;
