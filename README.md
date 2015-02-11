@@ -49,3 +49,12 @@ If necessary, you can change these breakpoints to best suit the needs of your we
    Screen widths between 939px and 639px | Tablets
    Screen widths &#8804; 640px | Smartphones
 
+## Browser Support
+* Chrome 10+
+* Internet Explorer 9+
+* Firefox 4+
+* Opera 11+
+* Safari 5.0.5+
+* iOS Safari
+* Android Browser
+
