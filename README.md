@@ -43,9 +43,9 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
 ## Media Queries
 If necessary, you can change these breakpoints to best suit the needs of your website:
 
-Breakpoints | Intended Devices
------------- | -------------
-Screen widths &#8805; 940px | Computers
-Screen widths between 939px and 639px | Tablets
-Screen widths &#8804; 640px | Smartphones
+   Breakpoints | Intended Devices
+   ------------ | -------------
+   Screen widths &#8805; 940px | Computers
+   Screen widths between 939px and 639px | Tablets
+   Screen widths &#8804; 640px | Smartphones
 
