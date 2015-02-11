@@ -23,3 +23,5 @@ Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
    ```<link rel="stylesheet" type="text/css" href="css/adaptivenav.css"/>```
 
 3. **Add the Menu Markup**
+
+   Insert the following markup into the ```<body>``` section of your HTML Document:
