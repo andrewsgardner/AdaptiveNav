@@ -2,7 +2,7 @@
 AdaptiveNav is a responsive navigation menu coded with pure CSS. This design utilizes media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.
 
 ## Demo
-Live Demo: http://andrewsgardner.com/code/adaptivenav/demo.html
+Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo.html
 
 ## Features
 * Pure CSS responsive design.
@@ -63,7 +63,7 @@ The MIT License (MIT)
 
 Copyright (c) 2015 Andrew S. Gardner
 
-Author URI: http://andrewsgardner.com
+Author URI: http://www.andrewsgardner.com/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
