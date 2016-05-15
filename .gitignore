@@ -12,6 +12,10 @@ Thumbs.db
 ###################
 .htaccess
 
+# Grunt JS #
+############
+node_modules
+
 # Sass #
 ########
 .sass-cache
