@@ -1,0 +1,12 @@
+/* css transform prefixes */
+@mixin transition($str) {
+    -webkit-transition: #{$str};
+    transition: #{$str};      
+}
+
+/* css transform prefixes */
+@mixin transform($str) {
+    -webkit-transform: #{$str};
+    -ms-transform: #{$str};
+    transform: #{$str};
+}

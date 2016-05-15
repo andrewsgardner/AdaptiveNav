@@ -5,19 +5,22 @@ Author URI: http://www.andrewsgardner.com
 Version: 2.0
 License: MIT
 */
+
 /* ---------------------- CSS DIRECTORY
 1. CSS Reset
 2. Global
 3. Header
 4. Media Queries
 ------------------------------------ */
-/* colors */
-/* css transform prefixes */
-/* css transform prefixes */
-/* convert px to em: 16px = 1em */
-/*----------> 1. CSS RESET <---------*/
-/*-----------> 2. GLOBAL <-----------*/
-/*-----------> 3. HEADER <-----------*/
-/*-------> 4. MEDIA QUERIES <--------*/
 
-/*# sourceMappingURL=main.css.map */
+@import 'modules/_variables';
+@import 'modules/_mixins';
+@import 'modules/_functions';
+/*----------> 1. CSS RESET <---------*/
+@import 'partials/_reset';
+/*-----------> 2. GLOBAL <-----------*/
+@import 'partials/_global';
+/*-----------> 3. HEADER <-----------*/
+@import 'partials/_header';
+/*-------> 4. MEDIA QUERIES <--------*/
+@import 'partials/_media-queries';
