@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                separator: 'rnrn'
+                separator: ';\n'
             },
             dist: {
                 src: ['resources/scripts/*.js'],
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/* \nProject Name: AdaptiveNav \nAuthor: Andrew S. Gardner \nAuthor URI: http://www.andrewsgardner.com \nVersion: 2.0 \nLicense: MIT \n*/'
+                banner: '/* \nProject Name: AdaptiveNav \nAuthor: Andrew S. Gardner \nAuthor URI: http://www.andrewsgardner.com \nVersion: 2.0 \nLicense: MIT \n*/\n'
             },
             dist: {
                 files: {
