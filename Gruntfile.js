@@ -19,12 +19,11 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today("dd-mm-yyyy") %&gt; */n'
+                banner: '/* \nTheme Name: AdaptiveNav \n Author: Andrew S. Gardner \n Author URI: http://www.andrewsgardner.com \n Version: 2.0 \n License: MIT\n */'
             },
             dist: {
                 files: {
-                    'public_html/js/adaptivenav.min.js': ['public_html/js/adaptivenav.js'],
-                    'public_html/css/adaptivenav.min.css': ['public_html/css/adaptivenav.css']
+                    'public_html/js/adaptivenav.min.js': ['public_html/js/adaptivenav.js']
                 }
             }
         },
@@ -52,5 +51,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['concat', 'uglify', 'sass', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
 };

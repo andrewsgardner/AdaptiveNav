@@ -1,25 +1,24 @@
 {
-    "name": "adaptivenav",
-    "version": "1.0.0",
-    "description": "AdaptiveNav is a responsive navigation menu coded with pure CSS. This design utilizes media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.",
-    "main": "Gruntfile.js",
-    "devDependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-compass": "latest",
-        "grunt-contrib-concat": "latest",
-        "grunt-contrib-cssmin": "latest",
-        "grunt-contrib-uglify": "latest",
-        "grunt-contrib-watch": "latest",
-        "grunt-sass": "^1.2.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/andrewsgardner/AdaptiveNav.git"
-    },
-    "author": "Andrew S. Gardner",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/andrewsgardner/AdaptiveNav/issues"
-    },
-    "homepage": "https://github.com/andrewsgardner/AdaptiveNav"
+  "name": "adaptivenav",
+  "version": "1.0.0",
+  "description": "AdaptiveNav is a responsive navigation menu coded with pure CSS. This design utilizes media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewsgardner/AdaptiveNav.git"
+  },
+  "author": "Andrew S. Gardner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewsgardner/AdaptiveNav/issues"
+  },
+  "homepage": "https://github.com/andrewsgardner/AdaptiveNav"
 }
