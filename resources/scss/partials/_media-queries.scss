@@ -1,0 +1,135 @@
+@media only screen and (min-width: em(1.6)) { /* Smartphones: 1.6px = .1em */
+    
+    /*----> HEADER <----*/
+    
+    header {
+        padding: em(10) 0;
+    }
+    header.scroll-text {
+        padding: em(3) 0;
+    }
+    .logo {
+        margin-left: em(20);
+        
+        img {
+            max-height: em(18.75);
+            margin: em(3.5) 0;
+        }
+    }
+    .primary-menu {
+        text-align: center;
+        
+        ul {
+            display: none;
+        }
+        li {
+            display: block;
+            padding: em(4.444) em(17.7777);
+            font-size: em(18);
+        }
+        li:first-of-type {
+            padding-top: em(17.7777);
+        }
+        a.active:before {
+            left: em(-9);
+            font-size: em(19);
+        }
+        a.active:after {
+            right: em(-9);
+            font-size: em(19);
+        }
+    }
+    .scroll-icon {
+        top: em(3.8);
+        @include transition('all 250ms linear');
+    }
+}
+
+@media only screen and (min-width: em(640)) { /* Tablets: 640px = 40em */
+    
+    /*----> HEADER <----*/
+    
+    header {
+        padding: em(17) 0;
+    }
+    header.scroll-text {
+        padding: em(7) 0;
+    }
+    .logo {
+        float: left;
+        max-width: em(186);
+        margin-left: em(35);
+        
+        img {
+            max-height: em(21.8);
+            margin: em(2) 0;
+        }
+    }
+    .primary-menu {
+        float: right;
+        text-align: right;
+        margin-right: em(35);
+        
+        ul {
+            display: inline-block;
+        }
+        li {
+            display: inline-block;
+            padding: 0 em(13.53792);
+            margin: em(5.333) 0;
+            font-size: em(15);
+        }
+        li:first-of-type {
+            padding-top: 0;
+        }
+        li:last-of-type {
+            padding-right: 0;
+        }
+        a.active:before {
+            left: em(-8.861);
+            font-size: em(17);
+        }
+        a.active:after {
+            right: em(-8.861);
+            font-size: em(17);
+        }
+    }
+    .hamburger-icon, .scroll-icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: em(992)) { /* Desktops: 992px = 62em */
+    
+    /*----> HEADER <----*/
+    
+    header {
+         padding: em(24) 0;
+    }
+    header.scroll-text {
+        padding: em(14) 0;
+    }
+    .logo {
+        margin-left: em(70);
+        
+        img {
+            max-height: em(25);
+            margin: 0;
+        }
+    }
+    .primary-menu {
+        margin-right: em(70);
+        
+        li {
+            padding: 0 em(17.067);
+        }
+        a.active:before {
+            left: em(-9.143);
+            font-size: em(22.4);
+        }
+        a.active:after {
+            right: em(-9.143);
+            font-size: em(22.4);
+        }
+    }
+}
