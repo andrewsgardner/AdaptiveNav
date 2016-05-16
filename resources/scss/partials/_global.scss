@@ -1,0 +1,7 @@
+body {
+    display: block;
+    background-color: $hex-white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: em(16);
+    /* Warning: Don't change font-size! All other EM units are partially derived from this value. */
+}
