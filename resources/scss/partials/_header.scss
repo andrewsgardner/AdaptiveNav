@@ -1,0 +1,59 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    background-color: $hex-blue;
+}
+
+.logo {
+    
+    img {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.primary-menu {
+    width: auto;
+    
+    li {
+        text-transform: lowercase;
+    }
+    a, a:visited {
+        text-decoration: none;
+        opacity: .75;
+        font-weight: 400;
+        color: $hex-white;
+    }
+    a.active {
+        position: relative;
+        opacity: 1;
+        font-weight: 500;
+    }
+    a.active:before {
+        content: "{";
+    }
+    a.active:after {
+        content: "}";
+    }
+    a.active:before, a.active:after {
+        position: absolute;
+        top: 50%;
+        @include transform('translateY(-50%)');
+        color: $hex-white;
+    }
+}
+
+.hamburger-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-size: em(22);
+    position: absolute;
+    top: em(8.7);
+    right: 0;
+    margin-right: em(14.5454);
+    color: $hex-white;
+}
