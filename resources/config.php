@@ -8,6 +8,9 @@ $config = array(
             "expanded" => "/css/adaptivenav.css",
             "min" => "/css/adaptivenav.min.css"
         ),
+        "img" => array(
+            "layout" => "/img/layout"
+        ),
         "scripts" => array(
             "expanded" => "/js/adaptivenav.js",
             "min" => "/js/adaptivenav.min.js",
