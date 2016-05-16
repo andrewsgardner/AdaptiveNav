@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
         uglify: {
             options: {
-                banner: '/* \nTheme Name: AdaptiveNav \n Author: Andrew S. Gardner \n Author URI: http://www.andrewsgardner.com \n Version: 2.0 \n License: MIT\n */'
+                banner: '/* \nProject Name: AdaptiveNav \nAuthor: Andrew S. Gardner \nAuthor URI: http://www.andrewsgardner.com \nVersion: 2.0 \nLicense: MIT \n*/'
             },
             dist: {
                 files: {
