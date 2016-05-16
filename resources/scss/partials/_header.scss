@@ -6,6 +6,8 @@ header {
     display: block;
     overflow: hidden;
     background-color: $hex-blue;
+    border-bottom: em(5) solid $hex-golden;
+    box-shadow: 0 0 em(2.5) 0 $hex-black;
 }
 
 .logo {
@@ -23,27 +25,18 @@ header {
         text-transform: lowercase;
     }
     a, a:visited {
+        color: $hex-white;
         text-decoration: none;
         opacity: .75;
         font-weight: 400;
-        color: $hex-white;
+        text-shadow: 0 0 .125em $hex-black;
+        letter-spacing: .10em;
     }
     a.active {
-        position: relative;
+        color: $hex-white;
         opacity: 1;
         font-weight: 500;
-    }
-    a.active:before {
-        content: "{";
-    }
-    a.active:after {
-        content: "}";
-    }
-    a.active:before, a.active:after {
-        position: absolute;
-        top: 50%;
-        @include transform('translateY(-50%)');
-        color: $hex-white;
+        text-transform: uppercase;
     }
 }
 
@@ -56,4 +49,8 @@ header {
     right: 0;
     margin-right: em(14.5454);
     color: $hex-white;
+}
+
+.scroll-animation {
+    @include transition('all 250ms linear');
 }

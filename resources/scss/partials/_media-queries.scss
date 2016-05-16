@@ -30,14 +30,6 @@
         li:first-of-type {
             padding-top: em(17.7777);
         }
-        a.active:before {
-            left: em(-9);
-            font-size: em(19);
-        }
-        a.active:after {
-            right: em(-9);
-            font-size: em(19);
-        }
     }
     .scroll-icon {
         top: em(3.8);
@@ -85,14 +77,6 @@
         li:last-of-type {
             padding-right: 0;
         }
-        a.active:before {
-            left: em(-8.861);
-            font-size: em(17);
-        }
-        a.active:after {
-            right: em(-8.861);
-            font-size: em(17);
-        }
     }
     .hamburger-icon, .scroll-icon {
         display: none;
@@ -122,14 +106,6 @@
         
         li {
             padding: 0 em(17.067);
-        }
-        a.active:before {
-            left: em(-9.143);
-            font-size: em(22.4);
-        }
-        a.active:after {
-            right: em(-9.143);
-            font-size: em(22.4);
         }
     }
 }

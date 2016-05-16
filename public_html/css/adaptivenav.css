@@ -79,7 +79,9 @@ header {
   left: 0;
   display: block;
   overflow: hidden;
-  background-color: #336699; }
+  background-color: #336699;
+  border-bottom: 0.3125em solid #FFCC66;
+  box-shadow: 0 0 0.15625em 0 #000; }
 
 .logo img {
   display: inline-block;
@@ -90,25 +92,17 @@ header {
   .primary-menu li {
     text-transform: lowercase; }
   .primary-menu a, .primary-menu a:visited {
+    color: #fff;
     text-decoration: none;
     opacity: .75;
     font-weight: 400;
-    color: #fff; }
+    text-shadow: 0 0 0.125em #000;
+    letter-spacing: .10em; }
   .primary-menu a.active {
-    position: relative;
+    color: #fff;
     opacity: 1;
-    font-weight: 500; }
-  .primary-menu a.active:before {
-    content: "{"; }
-  .primary-menu a.active:after {
-    content: "}"; }
-  .primary-menu a.active:before, .primary-menu a.active:after {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #fff; }
+    font-weight: 500;
+    text-transform: uppercase; }
 
 .hamburger-icon {
   display: inline-block;
@@ -119,6 +113,10 @@ header {
   right: 0;
   margin-right: 0.9090875em;
   color: #fff; }
+
+.scroll-animation {
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear; }
 
 /*-------> 4. MEDIA QUERIES <--------*/
 @media only screen and (min-width: 0.1em) {
@@ -143,12 +141,6 @@ header {
       font-size: 1.125em; }
     .primary-menu li:first-of-type {
       padding-top: 1.11110625em; }
-    .primary-menu a.active:before {
-      left: -0.5625em;
-      font-size: 1.1875em; }
-    .primary-menu a.active:after {
-      right: -0.5625em;
-      font-size: 1.1875em; }
   .scroll-icon {
     top: 0.2375em;
     -webkit-transition: all 250ms linear;
@@ -183,12 +175,6 @@ header {
       padding-top: 0; }
     .primary-menu li:last-of-type {
       padding-right: 0; }
-    .primary-menu a.active:before {
-      left: -0.5538125em;
-      font-size: 1.0625em; }
-    .primary-menu a.active:after {
-      right: -0.5538125em;
-      font-size: 1.0625em; }
   .hamburger-icon, .scroll-icon {
     display: none; } }
 
@@ -207,12 +193,6 @@ header {
   .primary-menu {
     margin-right: 4.375em; }
     .primary-menu li {
-      padding: 0 1.0666875em; }
-    .primary-menu a.active:before {
-      left: -0.5714375em;
-      font-size: 1.4em; }
-    .primary-menu a.active:after {
-      right: -0.5714375em;
-      font-size: 1.4em; } }
+      padding: 0 1.0666875em; } }
 
 /*# sourceMappingURL=adaptivenav.css.map */
