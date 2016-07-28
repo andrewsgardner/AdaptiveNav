@@ -1,4 +1,7 @@
 <?php
+defined("TEMPLATES_PATH")
+	or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
+
 $config = array(
     "info" => array(
         "cacheVer" => "?v=2.0"
@@ -22,7 +25,4 @@ $config = array(
         "local" => "/js/local/jquery-1.12.2.min.js"
     )
 );
-
-defined("TEMPLATES_PATH")
-	or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . "/templates"));
 ?>
