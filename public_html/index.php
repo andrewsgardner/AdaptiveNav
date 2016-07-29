@@ -1,4 +1,7 @@
-<?php $currentPage = "link_1"; require_once("config.php"); ?>
+<?php 
+$currentPage = "link_1";
+require_once("config.php"); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +18,8 @@
     <!-- BEGIN AdaptiveNav -->
     
     <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
+    
+    <h1>Link 1</h1>
     
     <!-- END AdaptiveNav -->
     
