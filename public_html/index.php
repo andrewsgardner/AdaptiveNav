@@ -13,6 +13,9 @@ require_once("config.php");
     
     <!-- AdaptiveNav stylesheet -->
     <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
+    
+    <!-- Demo stylesheet for example styles -->
+    <link rel="stylesheet" type="text/css" href="/css/demo-styles.css">
 </head>
 <body>
     <!-- BEGIN AdaptiveNav -->
@@ -21,7 +24,31 @@ require_once("config.php");
     
     <!-- END AdaptiveNav -->
     
-    <h1>Link 1</h1>
+    <!-- Start demo markup -->
+    
+    <section>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+        <h1>Resize Browser Window...</h1>
+    </section>
+    
+    <!-- End demo markup -->
     
     <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
 </body>
