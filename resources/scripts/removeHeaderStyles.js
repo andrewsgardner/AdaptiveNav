@@ -3,8 +3,10 @@
     function onReadyResize() {
         
         if ($(window).width() <= 767) {
+            
             /* remove mobile header styles when switching back to desktop mode */
             $('nav.primary-menu ul').removeAttr('style');
+            
         }
         
     }
