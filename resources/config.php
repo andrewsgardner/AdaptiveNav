@@ -27,7 +27,7 @@ $config = array(
 );
 
 $headerRoutes = array(
-    "demoDir1" => "/link-1/",
+    "demoDir1" => "/",
     "demoDir2" => "/link-2/",
     "demoDir3" => "/link-3/",
     "demoDir4" => "/link-4/"
