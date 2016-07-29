@@ -2,9 +2,6 @@
 /* BEGIN header */
 echo "<header>\n";
 
-/* BEGIN navbar */
-echo "<div class=\"nav-container\">\n";
-
 /* BEGIN logo */
 echo "<div class=\"logo\">\n";
 echo "<a href=\"" . $headerRoutes['demoDir1'] . "\"><img src=\"" . $config['paths']['img']['layout'] . "/logo.png" . "\" alt=\"AdaptiveNav v2.0" . "\"></a>\n";
@@ -26,9 +23,6 @@ echo "<li><a href=\"" . $headerRoutes['demoDir4'] . "\""?><?php if($currentPage 
 echo "</ul>\n";
 echo "</nav>\n";
 /* END primary nav */
-
-echo "</div>\n";
-/* END navbar */
 
 echo "</header>\n";
 /* End header */
