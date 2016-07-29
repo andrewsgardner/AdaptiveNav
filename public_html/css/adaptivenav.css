@@ -67,6 +67,10 @@ body {
   font-size: 1em;
   /* Warning: Don't change font-size! All other EM units are partially derived from this value. */ }
 
+h1,
+h2 {
+  display: block; }
+
 /*-----------> 3. HEADER <-----------*/
 header {
   position: fixed;

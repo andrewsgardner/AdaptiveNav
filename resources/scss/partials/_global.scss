@@ -5,3 +5,8 @@ body {
     font-size: em(16);
     /* Warning: Don't change font-size! All other EM units are partially derived from this value. */
 }
+
+h1,
+h2 {
+    display: block;
+}
