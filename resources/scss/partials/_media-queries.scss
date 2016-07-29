@@ -39,16 +39,6 @@
         li:first-of-type {
             padding-top: em(17.7777);
         }
-        a.active:before {
-            left: em(-9);
-            font-size: em(19);
-            height: 21px;
-        }
-        a.active:after {
-            right: em(-9);
-            font-size: em(19);
-            height: 21px;
-        }
     }
     .pushHamburgerIcon {
         top: em(8.5);
@@ -103,16 +93,6 @@
         li:last-of-type {
             padding-right: 0;
         }
-        a.active:before {
-            left: em(-8.861);
-            font-size: em(17);
-            height: 17px;
-        }
-        a.active:after {
-            right: em(-8.861);
-            font-size: em(17);
-            height: 17px;
-        }
     }
     .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger, .scroll-icon {
         display: none;
@@ -147,16 +127,6 @@
         
         li {
             padding: 0 em(17.067);
-        }
-        a.active:before {
-            left: em(-9.143);
-            font-size: em(22.4);
-            height: 21px;
-        }
-        a.active:after {
-            right: em(-9.143);
-            font-size: em(22.4);
-            height: 21px;
         }
     }
 }

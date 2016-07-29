@@ -35,24 +35,6 @@ header {
         opacity: 1;
         font-weight: 500;
     }
-    a.active:before {
-        content: "{";
-        display: inline-block;
-        vertical-align: middle;
-        line-height: normal;
-    }
-    a.active:after {
-        content: "}";
-        display: inline-block;
-        vertical-align: middle;
-        line-height: normal;
-    }
-    a.active:before, a.active:after {
-        position: absolute;
-        top: 50%;
-        @include transform('translateY(-50%)');
-        color: $hex-white;
-    }
 }
 
 .hamburgerTrigger {
