@@ -1,4 +1,4 @@
-/* convert px to em: 16px = 1em */
+// convert px to em: 16px = 1em
 $browser-context: 16;
 
 @function em($pixels, $context: $browser-context) {

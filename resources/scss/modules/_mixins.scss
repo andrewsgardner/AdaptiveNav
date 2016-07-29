@@ -1,12 +1,35 @@
-/* css transform prefixes */
+// css transition prefixes
 @mixin transition($str) {
     -webkit-transition: #{$str};
-    transition: #{$str};      
+    -moz-transition: #{$str};
+    -ms-transition: #{$str};
+    -o-transition: #{$str};
+    transition: #{$str};
 }
 
-/* css transform prefixes */
+// css transform prefixes
 @mixin transform($str) {
     -webkit-transform: #{$str};
+    -moz-transform: #{$str};
     -ms-transform: #{$str};
+    -o-transform: #{$str};
     transform: #{$str};
+}
+
+// css box shadow prefixes
+@mixin box-shadow($str) {
+    -webkit-box-shadow: #{$str};
+    box-shadow: #{$str};
+}
+
+// clearfix
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }

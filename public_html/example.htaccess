@@ -1,5 +1,3 @@
 # map to your servers include_path.
-# unix servers should use forward slashes: /your/path/
-# windows servers should use backslashes: c:\your\path\
 
 php_value include_path "/your/php/includes/path"
