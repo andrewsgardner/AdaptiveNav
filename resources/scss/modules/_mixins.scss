@@ -16,12 +16,6 @@
     transform: #{$str};
 }
 
-// css box shadow prefixes
-@mixin box-shadow($str) {
-    -webkit-box-shadow: #{$str};
-    box-shadow: #{$str};
-}
-
 // clearfix
 @mixin clearfix() {
     &:before,
