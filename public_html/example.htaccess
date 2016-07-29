@@ -1,3 +1,5 @@
-# map to your servers include_path.
+# recommended .htaccess settings:
 
-php_value include_path "/your/php/includes/path"
+
+# set the PHP include path to the URL of the /resources/ directory on your server
+php_value include_path "/path/to/resources/directory/"
