@@ -7,6 +7,9 @@
             /* remove mobile header styles when switching back to desktop mode */
             $('nav.primary-menu ul').removeAttr('style');
             
+            /* force uncentering of logo when switching back to desktop mode */
+            $('.logo').removeClass('pushLogo');
+            
         }
         
     }
