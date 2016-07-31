@@ -104,12 +104,12 @@ header {
 .hamburgerTrigger {
   display: inline-block;
   position: absolute;
+  top: 0.859375em;
+  right: 0;
   margin-right: 1.25em;
   width: 1.5625em;
   height: 1.09375em;
-  cursor: pointer;
-  top: 0.54375em;
-  right: 0; }
+  cursor: pointer; }
 
 .hamburger-icon {
   position: relative;
@@ -180,14 +180,7 @@ header {
     .primary-menu li:first-of-type {
       padding-top: 1.11110625em; }
   .pushHamburgerIcon {
-    top: 0.53125em;
-    -webkit-transition: all 250ms linear;
-    -moz-transition: all 250ms linear;
-    -ms-transition: all 250ms linear;
-    -o-transition: all 250ms linear;
-    transition: all 250ms linear; }
-  .scroll-icon {
-    top: 0.2375em;
+    top: 0.421875em;
     -webkit-transition: all 250ms linear;
     -moz-transition: all 250ms linear;
     -ms-transition: all 250ms linear;
@@ -225,7 +218,7 @@ header {
       padding-top: 0; }
     .primary-menu li:last-of-type {
       padding-right: 0; }
-  .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger, .scroll-icon {
+  .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger {
     display: none; } }
 
 @media only screen and (min-width: 62em) {

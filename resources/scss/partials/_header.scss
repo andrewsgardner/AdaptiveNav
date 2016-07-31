@@ -40,15 +40,12 @@ header {
 .hamburgerTrigger {
     display: inline-block;
     position: absolute;
-    //top: em(89.5);
-    //right: 0;
+    top: em(13.75);
+    right: 0;
     margin-right: em(20);
     width: em(25);
     height: em(17.5);
     cursor: pointer;
-    
-    top: em(8.7); //tmp
-    right: 0; //tmp
 }
 
 .hamburger-icon {

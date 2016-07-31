@@ -6,16 +6,16 @@ $(document).ready(function() {
            /* add header animation */
            $('header').addClass('scroll-nav scroll-animation');
            
-           /* add hamburger icon animation */
-           $('.hamburger-icon').addClass('scroll-icon');
+           /* add hamburger icon trigger adjustment */
+           $('.hamburgerTrigger').addClass('pushHamburgerIcon');
            
        } else {
            
            /* remove header animation */
            $('header').removeClass('scroll-nav').addClass('scroll-animation');
            
-           /* remove hamburger icon animation */
-           $('.hamburger-icon').removeClass('scroll-icon').addClass('scroll-animation');
+           /* remove hamburger icon trigger adjustment */
+           $('.hamburgerTrigger').removeClass('pushHamburgerIcon').addClass('scroll-animation');
            
        }
     });

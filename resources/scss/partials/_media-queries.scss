@@ -41,11 +41,7 @@
         }
     }
     .pushHamburgerIcon {
-        top: em(8.5);
-        @include transition('all 250ms linear');
-    }
-    .scroll-icon {
-        top: em(3.8);
+        top: em(6.75);
         @include transition('all 250ms linear');
     }
 }
@@ -94,7 +90,7 @@
             padding-right: 0;
         }
     }
-    .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger, .scroll-icon {
+    .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger {
         display: none;
     }
 }
