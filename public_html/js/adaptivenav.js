@@ -1,11 +1,14 @@
-/* 
-Project Name: AdaptiveNav 
-Author: Andrew S. Gardner 
-Author URI: http://www.andrewsgardner.com 
-Version: 2.0 
-License: MIT 
-*/
 $(document).ready(function() {
+    
+    $('.hamburgerTrigger').click(function() {
+        
+        /* render hamburger icon */
+        $('nav.primary-menu ul').slideToggle();
+        
+        /* center logo on click */
+        $('.logo').toggleClass('pushLogo');
+        
+    });
     
     $(window).scroll(function() {
        if ($(this).scrollTop() > 1) {
@@ -25,19 +28,6 @@ $(document).ready(function() {
            $('.hamburgerTrigger').removeClass('pushHamburgerIcon').addClass('scroll-animation');
            
        }
-    });
-    
-});;
-$(document).ready(function() {
-    
-    $('.hamburgerTrigger').click(function() {
-        
-        /* render hamburger icon */
-        $('nav.primary-menu ul').slideToggle();
-        
-        /* center logo on click */
-        $('.logo').toggleClass('pushLogo');
-        
     });
     
 });;
