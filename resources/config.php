@@ -12,7 +12,7 @@ $config = array(
             "min" => "/css/adaptivenav.min.css"
         ),
         "img" => array(
-            "layout" => "/img/layout"
+            "layout" => "/img"
         ),
         "scripts" => array(
             "expanded" => "/js/adaptivenav.js",

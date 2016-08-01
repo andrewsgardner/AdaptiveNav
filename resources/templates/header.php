@@ -4,7 +4,7 @@ echo "<header>\n";
 
 /* BEGIN logo */
 echo "<div class=\"logo\">\n";
-echo "<a href=\"" . $headerRoutes['demoDir1'] . "\"><img src=\"" . $config['paths']['img']['layout'] . "/logo.png" . "\" alt=\"AdaptiveNav v2.0" . "\"></a>\n";
+echo "<a href=\"" . $headerRoutes['demoDir1'] . "\"><img src=\"" . $config['paths']['img']['layout'] . "/logo.svg" . "\" alt=\"AdaptiveNav v2.0" . "\"></a>\n";
 echo "</div>\n";
 /* END logo */
 
