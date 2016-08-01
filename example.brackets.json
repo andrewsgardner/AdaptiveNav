@@ -1,0 +1,12 @@
+{
+  "path": {
+    "resources/scss/main.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "output": "../../public_html/css/adaptivenav.css",
+        "imagePath": null,
+        "outputStyle": "expanded"
+      }
+    }
+  }
+}
