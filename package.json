@@ -1,6 +1,6 @@
 {
   "name": "adaptivenav",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "AdaptiveNav is a responsive navigation menu coded with pure CSS. This design utilizes media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.",
   "main": "Gruntfile.js",
   "devDependencies": {
