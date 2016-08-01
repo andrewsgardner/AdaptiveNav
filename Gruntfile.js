@@ -39,10 +39,18 @@ module.exports = function(grunt) {
                 }
             }
         },
-
+        
+        cssmin: {
+            target: {
+                files: {
+                    'public_html/css/adaptivenav.min.css': 'public_html/css/adaptivenav.css'
+                }
+            }
+        },
+        
         watch: {
-            files: ['resources/scss/**/*.scss', 'resources/scripts/*.js'],
-            tasks: ['concat', 'uglify', 'sass']
+            files: ['resources/scss/**/*.scss', 'resources/scripts/*.js', 'public_html/css/adaptivenav.css'],
+            tasks: ['concat', 'uglify', 'sass', 'cssmin']
         }
 
     });
@@ -50,6 +58,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['concat', 'uglify', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'watch']);
 };
