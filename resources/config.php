@@ -11,13 +11,14 @@ $config = array(
             "expanded" => "/css/adaptivenav.css",
             "min" => "/css/adaptivenav.min.css"
         ),
-        "img" => array(
-            "layout" => "/img"
-        ),
         "scripts" => array(
             "expanded" => "/js/adaptivenav.js",
             "min" => "/js/adaptivenav.min.js",
-            "html5shiv" => "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+            "html5Shiv" => "/js/local/html5shiv.min.js",
+            "respondJs" => "/js/local/respond.min.js"
+        ),
+        "img" => array(
+            "layout" => "/img"
         )
     ),
     "jQuery" => array(

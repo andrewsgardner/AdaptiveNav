@@ -9,13 +9,14 @@ require_once("config.php");
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>AdaptiveNav v2.0 - Responsive Navigation Menu: Link 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5shiv'] . "\"></script>\n\t<![endif]-->\n"; ?>
     
     <!-- AdaptiveNav stylesheet -->
     <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
     
     <!-- Demo stylesheet for example styles -->
     <link rel="stylesheet" type="text/css" href="/css/demo-styles.css">
+    
+    <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
 </head>
 <body>
     <!-- BEGIN AdaptiveNav -->
