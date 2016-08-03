@@ -30,8 +30,7 @@ $(document).ready(function() {
        }
     });
     
-});;
-/* bind .ready() and .resize() */
+});;/* bind .ready() and .resize() */
 (function() {
     function onReadyResize() {
         

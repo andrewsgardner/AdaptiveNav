@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                separator: ';\n'
+                separator: ';'
             },
             dist: {
                 src: ['resources/scripts/*.js'],
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         
         sass: {
             options: {
-                sourceMap: true,
+                sourceMap: false,
                 sourceComments: false
             },
             dist: {
