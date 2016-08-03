@@ -3,3 +3,21 @@ h1 {
     font-size: 30px;
     color: #4d4d4d;
 }
+
+@media only screen and (min-width: 0.1em) { /* Smartphones: 1.6px = .1em */
+    section {
+        padding: 67px 12px 12px 12px;
+    }
+}
+
+@media only screen and (min-width: 40em) { /* Tablets: 640px = 40em */
+    section {
+        padding: 81px 20px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 62em) { /* Desktops: 992px = 62em */
+    section {
+        padding: 93px 20px 20px 20px;
+    }
+}
