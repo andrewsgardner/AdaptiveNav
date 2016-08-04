@@ -41,17 +41,22 @@ nav, section {
 body {
   line-height: 1; }
 
-html, body {
+html,
+body {
   height: 100%; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none; }
 
@@ -91,7 +96,8 @@ header {
   width: auto; }
   .primary-menu li {
     text-transform: lowercase; }
-  .primary-menu a, .primary-menu a:visited {
+  .primary-menu a,
+  .primary-menu a:visited {
     text-decoration: none;
     opacity: .75;
     font-weight: 400;
@@ -218,7 +224,9 @@ header {
       padding-top: 0; }
     .primary-menu li:last-of-type {
       padding-right: 0; }
-  .hamburger-icon, .pushHamburgerIcon, .hamburgerTrigger {
+  .hamburger-icon,
+  .pushHamburgerIcon,
+  .hamburgerTrigger {
     display: none; } }
 
 @media only screen and (min-width: 62em) {

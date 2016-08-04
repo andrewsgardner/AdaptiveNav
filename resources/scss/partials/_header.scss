@@ -24,7 +24,8 @@ header {
     li {
         text-transform: lowercase;
     }
-    a, a:visited {
+    a, 
+    a:visited {
         text-decoration: none;
         opacity: .75;
         font-weight: 400;
@@ -58,7 +59,8 @@ header {
     float: left;
     box-shadow: inset 0 0 em(1) 0 $hex-black;
     
-    &:before, &:after {
+    &:before, 
+    &:after {
         content: "";
         position: absolute;
         left: 0;
