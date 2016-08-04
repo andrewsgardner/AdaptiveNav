@@ -1,15 +1,15 @@
 {
   "name": "adaptivenav",
   "version": "2.0.0",
-  "description": "AdaptiveNav is a responsive navigation menu coded with pure CSS. This design utilizes media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.",
+  "description": "AdaptiveNav is a responsive, mobile-first navigation menu for modern web layouts. This versatile design uses media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.",
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-concat": "latest",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^1.2.0"
   },
   "repository": {
