@@ -4,7 +4,32 @@ AdaptiveNav is a responsive, mobile-first navigation menu for modern web layouts
 ## Demo
 Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo/
 
-## Installation
+## Recommended Directory Structure
+
+Position ```/resources/``` relative to ```/public_html/``` within the internal structure of your web server.
+
+```
+project-root
+ |
+ +---- public_html
+ |    |
+ |    +---- css
+ |    +---- img
+ |    +---- js
+ |    +---- .htaccess
+ |    +---- index.php
+ |
+ +---- resources
+ |    |
+ |    +---- scripts
+ |    +---- scss
+ |    +---- templates
+ |    +---- config.php
+ |
+ +---- .gitignore
+ +---- Gruntfile.js
+ +---- package.json
+```
 
 ## Features
 * Pure CSS responsive design.
