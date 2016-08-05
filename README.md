@@ -11,20 +11,20 @@ Position ```/resources/``` relative to ```/public_html/``` within the internal s
 ```
 project-root
  |
- +---- public_html
+ +---- public_html        <-- Document Root
  |    |
- |    +---- css
+ |    +---- css           <-- Compiled CSS
  |    +---- img
- |    +---- js
- |    +---- .htaccess
+ |    +---- js            <-- Compiled JavaScript
+ |    +---- .htaccess     <-- Apache Server Configs
  |    +---- index.php
  |
- +---- resources
+ +---- resources          <-- Configs & Source Files
  |    |
- |    +---- scripts
- |    +---- scss
- |    +---- templates
- |    +---- config.php
+ |    +---- scripts       <-- JavaScript Source Files
+ |    +---- scss          <-- Sass Partials
+ |    +---- templates     <-- PHP Includes
+ |    +---- config.php    <-- Routing & Variable Configs
  |
  +---- .gitignore
  +---- Gruntfile.js
