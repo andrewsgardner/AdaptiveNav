@@ -8,7 +8,7 @@ Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo/
 * Mobile-first responsive design.
 * Smooth performance on computers, tablets, and smartphones.
 * Scroll-based animation via CSS3 transitions.
-* Menu link paths handled by a PHP array.
+* Menu link paths are handled by a PHP array.
 * Cross-browser compatibility.
 * Loads jQuery from [Google Hosted Libraries](https://developers.google.com/speed/libraries/#jquery) with a local fallback available.
 * Screen real estate is optimized on mobile devices with a hamburger menu.
