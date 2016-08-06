@@ -4,6 +4,16 @@ AdaptiveNav is a responsive, mobile-first navigation menu for modern web layouts
 ## Demo
 Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo/
 
+## Features
+* Mobile-first responsive design.
+* Smooth performance on computers, tablets, and smartphones.
+* Scroll-based animation via CSS3 transitions.
+* Menu link paths handled by a PHP array.
+* Cross-browser compatibility.
+* Loads jQuery from [Google Hosted Libraries](https://developers.google.com/speed/libraries/#jquery) with a local fallback available.
+* Screen real estate is optimized on mobile devices with a hamburger menu.
+* Active page is emphasized in navigation menu styling.
+
 ## Recommended Directory Structure
 
 Position ```/resources/``` relative to ```/public_html/``` within the internal structure of your web server.
@@ -30,11 +40,6 @@ project-root
  +---- Gruntfile.js
  +---- package.json
 ```
-
-## Features
-* Pure CSS responsive design.
-* Smooth performance on computers, tablets, and smartphones.
-* Cross-browser compatibility.
 
 ## Usage
 1. **Set the Viewport**
