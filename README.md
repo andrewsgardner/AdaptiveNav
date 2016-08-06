@@ -11,7 +11,7 @@ Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo/
 * Menu link paths are handled by a PHP array.
 * Cross-browser compatibility.
 * Loads jQuery from [Google Hosted Libraries](https://developers.google.com/speed/libraries/#jquery) with a local fallback available.
-* Screen real estate is optimized on mobile devices with a hamburger menu.
+* Hamburger menu renders on mobile devices to optimize screen real estate.
 * Active page is emphasized in navigation menu styling.
 
 ## Recommended Directory Structure
