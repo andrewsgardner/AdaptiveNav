@@ -41,6 +41,16 @@ project-root
  +---- package.json
 ```
 
+## Installation
+
+Clone AdaptiveNav into your project behind the document root of your host.
+
+```
+git clone https://github.com/andrewsgardner/AdaptiveNav.git .
+```
+
+###### Adding a period at the end prevents AdaptiveNav's root folder name form being cloned into your project.
+
 ## Usage
 1. **Set the Viewport**
 
