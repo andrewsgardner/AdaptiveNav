@@ -170,9 +170,9 @@ If necessary, you can change these breakpoints to best suit the needs of your we
 
    Breakpoints | Intended Devices
    ----------- | -------------
-   Screen widths &#8805; 940px | Computers
-   Screen widths between 939px and 639px | Tablets
-   Screen widths &#8804; 640px | Smartphones
+   Screen min-width of 0.1em (1.6px) | Smartphones
+   Screen min-width of 40em (640px) | Tablets
+   Screen min-width of 62em (992px) | Computers
 
 ## Browser Support
 * Chrome 10+
