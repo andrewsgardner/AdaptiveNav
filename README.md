@@ -63,32 +63,35 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
    ###### Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
-2. Incorporate the following components into all new pages:
+2. **Incorporate the following components into all new pages:**
    
-   * ```$currentPage``` designation.
+   ```$currentPage``` designation.
    
    ```
-   <?php 
-   $currentPage = "";
-   require_once("config.php"); 
-   ?>
+   <?php $currentPage = ""; ?>
+   
    ```
    
-   * ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php).
+   ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php).
+   
+   ```
+   <?php require_once("config.php"); ?>
+   ```
+   
    * Viewport meta element.
    
    ```
    <meta name="viewport" content="width=device-width, initial-scale=1">
    ```
    
-   * AdaptiveNav stylesheet link.
+   AdaptiveNav stylesheet link.
    
    ```
    <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . 
         $config['info']['cacheVer']; ?>">
    ```
    
-   * Conditional comments for Internet Explorer 9 and below.
+   Conditional comments for Internet Explorer 9 and below.
    
    ```
    <?php 
@@ -100,13 +103,13 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    ?>
    ```
    
-   * ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
+   ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
    
    ```
    <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
    ```
    
-   * ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
+   ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
    
    ```
    <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
