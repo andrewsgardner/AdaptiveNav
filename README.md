@@ -86,8 +86,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 5. **Link the AdaptiveNav stylesheet in the ```<head>``` section of each page.**
    
    ```
-   <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . 
-        $config['info']['cacheVer']; ?>">
+   <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
    ```
    
 6. **Add conditional comments in the ```<head>``` section of each page.**
@@ -95,13 +94,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    These will only be processed by Internet Explorer 9 and below.
    
    ```
-   <?php 
-   echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . 
-   $config['paths']['scripts']['html5Shiv'] . 
-   "\"></script>\n\t\t<script src=\"" . 
-   $config['paths']['scripts']['respondJs'] . 
-   "\"></script>\n\t<![endif]-->\n"; 
-   ?>
+   <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
    ```
 
 7. **Add a ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php) in the ```<body>``` section of each page.**
@@ -150,46 +143,28 @@ Follow the instructions below to establish your own link structure:
 
    ```$currentPage``` visually emphasizes the active page in the navigation's menu styling.
    
-   
    ```
-   if ( &lt;b&gt;$currentPage == 'landing'&lt;/b&gt; ) echo ' class="active"'
+   if ( $currentPage == 'landing' ) echo ' class="active"'
+   if ( $currentPage == 'about' ) echo ' class="active"'
+   if ( $currentPage == 'portfolio' ) echo ' class="active"'
+   if ( $currentPage == 'contact' ) echo ' class="active"'
    ```
 
+4. **In [/public_html/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/public_html), create directories for each new link path.**
 
-Will finish later...
-
-
-
-1. **Set the Viewport**
-
-   Insert this meta viewport tag into the ```<head>``` section of your HTML document:
-
-   ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
-
-2. **Include the AdaptiveNav Stylesheet**
-
-   Reference the included ```adaptivenav.css``` stylesheet in the ```<head>``` section of your HTML document.
-   
-   ```<link rel="stylesheet" type="text/css" href="css/adaptivenav.css"/>```
-
-3. **Add the Menu Markup**
-
-   Insert the following markup into the ```<body>``` section of your HTML Document:
-
-   ```   
-   <header class="clearfix">
-	   <h1 class="logo"><a href="#">Andrew S. Gardner</a></h1>
-	   <div class="menu">
-		   <ul>
-			   <li><a href="#" class="active">Link 1</a></li>
-			   <li><a href="#">Link 2</a></li>
-			   <li><a href="#">Link 3</a></li>
-			   <li><a href="#">Link 4</a></li>
-			   <li><a href="#">Link 5</a></li>
-		   </ul>
-	   </div>
-   </header>
    ```
+   project-root
+    |
+    +---- public_html          <-- Document Root
+    |    |
+    |    +---- about           <-- /about/
+    |    +---- portfolio       <-- /portfolio/
+    |    +---- contact         <-- /contact/
+    |    +---- index.php       <-- / (landing)
+   ```
+
+5. **Add the appropriate ```$currentPage``` value on each page.**
+
 ## Media Queries
 If necessary, you can change these breakpoints to best suit the needs of your website:
 
