@@ -120,7 +120,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
 The menu link paths included with AdaptiveNav are for demonstration purposes only.
 
-Follow the instructions below to define custom menu path values.
+Follow the instructions below to define custom menu links.
 
 1. **Define directories your header will link to in the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array within ```config.php```.**
    
