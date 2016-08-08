@@ -160,7 +160,7 @@ Follow the instructions below to establish your own link structure:
     |    +---- about           <-- /about/
     |    +---- portfolio       <-- /portfolio/
     |    +---- contact         <-- /contact/
-    |    +---- index.php       <-- / (landing)
+    |    +---- index.php       <-- /
    ```
 
 5. **Add the appropriate ```$currentPage``` value as defined in step three on each page.**
