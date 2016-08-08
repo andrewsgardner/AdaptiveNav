@@ -73,6 +73,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    * ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
    * ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
    
+
    ```
    <?php 
    $currentPage = "";
@@ -100,10 +101,6 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
         
         <!-- END AdaptiveNav -->
         
-        <!-- BEGIN page content -->
-        
-        
-        <!-- END page content -->
         
         <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
    </body>
