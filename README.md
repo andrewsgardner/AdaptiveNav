@@ -72,7 +72,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    * Conditional comments for Internet Explorer 9 and below.
    * ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
    * ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
-   
+
    ```
    <?php 
    $currentPage = "";
@@ -90,9 +90,10 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    </head>
    <body>
         <!-- BEGIN AdaptiveNav -->
-        <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
-        <!-- END AdaptiveNav -->
         
+        <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
+        
+        <!-- END AdaptiveNav -->
         <!-- BEGIN page content -->
         
         <!-- END page content -->
