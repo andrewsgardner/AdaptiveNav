@@ -69,7 +69,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    <?php $currentPage = ""; ?>
    ```
    
-   ###### * The possible values for $currentPage will be covered later in this tutorial.
+   ###### * The possible values for $currentPage will be covered later in this documentation.
    
 3. **Starting at the document root, add a ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php) in the ```<head>``` section each page.**
    
