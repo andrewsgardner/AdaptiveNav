@@ -149,10 +149,10 @@ User's should configure their own path values.
    ```$currentPage``` visually emphasizes the active page in the navigation’s menu styling.
    
    ```
-   <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if(**$currentPage == 'landing'**) echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if(**$currentPage == 'about'**) echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if(**$currentPage == 'portfolio'**) echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if(**$currentPage == 'contact'**) echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if($currentPage == 'landing') echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if($currentPage == 'about') echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if($currentPage == 'portfolio') echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if($currentPage == 'contact') echo ' class="active"'; ?>
    ```
 
 
