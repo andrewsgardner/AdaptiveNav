@@ -72,7 +72,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    * Conditional comments for Internet Explorer 9 and below.
    * ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
    * ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
-
+   
    ```
    <?php 
    $currentPage = "";
@@ -84,9 +84,14 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- AdaptiveNav stylesheet -->
-        <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . 
+        $config['info']['cacheVer']; ?>">
         
-        <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
+        <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . 
+        $config['paths']['scripts']['html5Shiv'] . 
+        "\"></script>\n\t\t<script src=\"" . 
+        $config['paths']['scripts']['respondJs'] . 
+        "\"></script>\n\t<![endif]-->\n"; ?>
    </head>
    <body>
         <!-- BEGIN AdaptiveNav -->
@@ -94,7 +99,9 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
         <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
         
         <!-- END AdaptiveNav -->
+        
         <!-- BEGIN page content -->
+        
         
         <!-- END page content -->
         
