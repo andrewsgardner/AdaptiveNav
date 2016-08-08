@@ -83,7 +83,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    <meta name="viewport" content="width=device-width, initial-scale=1">
    ```
 
-5. **Starting at the document root, add the AdaptiveNav stylesheet in the ```<head>``` section of each page.**
+5. **Starting at the document root, link the AdaptiveNav stylesheet in the ```<head>``` section of each page.**
    
    ```
    <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . 
