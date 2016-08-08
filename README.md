@@ -63,6 +63,51 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
    ###### Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
+2. Incorporate the following components into all new pages:
+   
+   * ```$currentPage``` designation.
+   * ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php).
+   * Viewport meta element.
+   * AdaptiveNav stylesheet link.
+   * Conditional comments for Internet Explorer 9 and below.
+   * ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
+   * ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
+   
+   ```
+   <?php 
+   $currentPage = "";
+   require_once("config.php"); 
+   ?>
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+   	<meta charset="UTF-8" />
+   	<meta http-equiv="x-ua-compatible" content="ie=edge">
+   	<title>Page Name...</title>
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+   	
+   	<!-- AdaptiveNav stylesheet -->
+   	<link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
+   	
+   	<?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
+   </head>
+   <body>
+   	<!-- BEGIN AdaptiveNav -->
+    
+    	<?php require_once(TEMPLATES_PATH . "/header.php"); ?>
+    
+   	<!-- END AdaptiveNav -->
+   	
+   	<!-- BEGIN page content -->
+   	
+   	
+   	<!-- END page content -->
+   	
+   	<?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
+   </body>
+   </html>
+   ```
+
 ## Usage
 1. **Set the Viewport**
 
