@@ -115,7 +115,7 @@ The included menu link paths are for demonstration purposes only.
 
 Follow the instructions below to establish your own link structure:
 
-1. **In ```config.php```, define directories your header will link to in the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array.**
+1. **In ```config.php```, define directories your header will link to using the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array.**
    
    Assign a unique variable name for each link path.
    
