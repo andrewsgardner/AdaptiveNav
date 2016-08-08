@@ -149,10 +149,10 @@ User's should configure their own path values.
    ```$currentPage``` visually emphasizes the active page in the navigation’s menu styling.
    
    ```
-   ... <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if(<b>$currentPage == 'landing'</b>) echo ' class="active"'; ?> ...
-   ... <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if(<b>$currentPage == 'about'</b>) echo ' class="active"'; ?> ...
-   ... <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if(<b>$currentPage == 'portfolio'</b>) echo ' class="active"'; ?> ...
-   ... <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if(<b>$currentPage == 'contact'</b>) echo ' class="active"'; ?> ...
+   <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if(<b>$currentPage == 'landing'</b>) echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if(<b>$currentPage == 'about'</b>) echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if(<b>$currentPage == 'portfolio'</b>) echo ' class="active"'; ?>
+   <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if(<b>$currentPage == 'contact'</b>) echo ' class="active"'; ?>
    ```
 
 
