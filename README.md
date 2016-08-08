@@ -51,6 +51,18 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
 ###### Adding a period at the end prevents AdaptiveNav's root folder name form being cloned into your project.
 
+## Configuration
+
+1. **Create an .htaccess file in your test server's [/public_html/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/public_html) directory.**
+
+   In .htaccess, point the PHP include path at the [/resources/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/resources) directory.
+   
+   ```
+   php_value include_path "/path/to/resources/directory/"
+   ```
+
+###### Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
+
 ## Usage
 1. **Set the Viewport**
 
