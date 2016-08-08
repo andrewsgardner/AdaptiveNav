@@ -152,7 +152,7 @@ Follow the instructions below to establish your own link structure:
    
    
    ```
-   if ( <b>$currentPage == 'landing'</b> ) echo ' class="active"'
+   if ( &lt;b&gt;$currentPage == 'landing'&lt;/b&gt; ) echo ' class="active"'
    ```
 
 
