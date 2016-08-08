@@ -55,13 +55,13 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
 1. **Create an .htaccess file in your test server's [/public_html/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/public_html) directory.**
 
-   In .htaccess, point the PHP include path at the [/resources/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/resources) directory.
+   In .htaccess, point the PHP include path at the [/resources/](https://github.com/andrewsgardner/AdaptiveNav/tree/master/resources) directory. *
    
    ```
    php_value include_path "/path/to/resources/directory/"
    ```
 
-   ###### Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
+   ###### * Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
 2. **Starting at the document root, add a blank ```$currentPage``` variable at the top of each page** *
    
