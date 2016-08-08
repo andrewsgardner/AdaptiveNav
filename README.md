@@ -152,10 +152,7 @@ Follow the instructions below to establish your own link structure:
    
    
    ```
-   $headerRoutes['landing_page'] . "\""?&gt;&lt;?php if(<b>$currentPage == 'landing'</b>) echo ' class="active"'
-   $headerRoutes['about_link'] . "\""?><?php if($currentPage == 'about') echo ' class="active"'
-   $headerRoutes['portfolio_link'] . "\""?><?php if($currentPage == 'portfolio') echo ' class="active"'
-   $headerRoutes['contact_link'] . "\""?><?php if($currentPage == 'contact') echo ' class="active"'
+   if ( <b>$currentPage == 'landing'</b> ) echo ' class="active"'
    ```
 
 
