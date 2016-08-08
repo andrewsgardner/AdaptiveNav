@@ -69,7 +69,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    <?php $currentPage = ""; ?>
    ```
    
-   ###### * The possible values for $currentPage will be covered later in this documentation.
+   ###### * The values for $currentPage will be covered later in this documentation.
    
 3. **Add a ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php) at the top of each page.**
    
@@ -77,19 +77,19 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    <?php require_once("config.php"); ?>
    ```
    
-4. **Add a viewport designation in the ```<head>``` section of each page.**
+4. **Add a viewport in the ```<head>``` section of each page.**
    
    ```
    <meta name="viewport" content="width=device-width, initial-scale=1">
    ```
 
-5. **Link the AdaptiveNav stylesheet in the ```<head>``` section of each page.**
+5. **Link AdaptiveNav's stylesheet in the ```<head>``` section of each page.**
    
    ```
    <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
    ```
    
-6. **Add conditional comments in the ```<head>``` section of each page.**
+6. **Provide conditional comments in the ```<head>``` section of each page.**
 
    These will only be processed by Internet Explorer 9 and below.
    
