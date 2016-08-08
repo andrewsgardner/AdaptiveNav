@@ -61,7 +61,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    php_value include_path "/path/to/resources/directory/"
    ```
 
-   ###### Remember that Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
+   ###### Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
 ## Usage
 1. **Set the Viewport**
