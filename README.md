@@ -163,7 +163,7 @@ Follow the instructions below to establish your own link structure:
     |    +---- index.php       <-- /
    ```
 
-5. **Add the appropriate ```$currentPage``` value as defined in step three on each page.**
+5. **Add the appropriate ```$currentPage``` value on each page as defined in step three.**
 
 ## Media Queries
 If necessary, you can change these breakpoints to best suit the needs of your website:
