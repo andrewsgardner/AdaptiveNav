@@ -122,7 +122,7 @@ The included menu link paths are for demonstration purposes only.
 
 Follow the instructions below to establish your own link structure:
 
-1. **Define directories your header will link to in the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array within ```config.php```.**
+1. **In ```config.php```, define directories your header will link to in the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array.**
    
    Assign a unique variable name for each link path.
    
@@ -137,7 +137,7 @@ Follow the instructions below to establish your own link structure:
    );
    ```
 
-2. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), update the array values for ```$headerRoutes``` to reflect your new link structure.**
+2. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), update the array values for ```$headerRoutes```.**
 
    ```
    $headerRoutes[landing_page]
@@ -146,15 +146,16 @@ Follow the instructions below to establish your own link structure:
    $headerRoutes[contact_link]
    ```
 
-3. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), assign a unique value for ```$currentPage``` as it corresponds to each menu link.
+3. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), assign a unique value for each instance of ```$currentPage```.**
 
-   ```$currentPage``` visually emphasizes the active page in the navigation’s menu styling.
+   ```$currentPage``` visually emphasizes the active page in the navigation's menu styling.
+   
    
    ```
-   <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if($currentPage == 'landing') echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if($currentPage == 'about') echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if($currentPage == 'portfolio') echo ' class="active"'; ?>
-   <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if($currentPage == 'contact') echo ' class="active"'; ?>
+   $headerRoutes['landing_page'] . "\""?><?php if(&lt;b&gt;$currentPage == 'landing'&lt;/b&gt;) echo ' class="active"'
+   $headerRoutes['about_link'] . "\""?><?php if(&lt;b&gt;$currentPage == 'about'&lt;/b&gt;) echo ' class="active"'
+   $headerRoutes['portfolio_link'] . "\""?><?php if(&lt;b&gt;$currentPage == 'portfolio'&lt;/b&gt;) echo ' class="active"'
+   $headerRoutes['contact_link'] . "\""?><?php if(&lt;b&gt;$currentPage == 'contact'&lt;/b&gt;) echo ' class="active"'
    ```
 
 
