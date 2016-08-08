@@ -84,9 +84,9 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- AdaptiveNav stylesheet -->
-   	<link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
-   	
-   	<?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
+        <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . $config['info']['cacheVer']; ?>">
+        
+        <?php echo "<!--[if lt IE 9]>\n\t\t<script src=\"" . $config['paths']['scripts']['html5Shiv'] . "\"></script>\n\t\t<script src=\"" . $config['paths']['scripts']['respondJs'] . "\"></script>\n\t<![endif]-->\n"; ?>
    </head>
    <body>
         <!-- BEGIN AdaptiveNav -->
