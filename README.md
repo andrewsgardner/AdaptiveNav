@@ -67,7 +67,6 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    
    ```
    <?php $currentPage = ""; ?>
-   
    ```
    
    ###### * The possible values for $currentPage will be covered later in this tutorial.
