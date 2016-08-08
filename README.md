@@ -63,7 +63,7 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
    ###### * Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
-2. **Add a blank ```$currentPage``` variable at the top of each page** *
+2. **Add an empty ```$currentPage``` variable at the top of each page** *
    
    ```
    <?php $currentPage = ""; ?>
