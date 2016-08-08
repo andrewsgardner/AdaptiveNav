@@ -141,7 +141,7 @@ Follow the instructions below to establish your own link structure:
 
 3. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), assign a unique value for each instance of ```$currentPage```.**
 
-   ```$currentPage``` visually emphasizes the active page in the navigation's menu styling.
+   ```$currentPage``` visually emphasizes the active page in the menu's styling.
    
    ```
    if ( $currentPage == 'landing' ) echo ' class="active"'
