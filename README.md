@@ -63,35 +63,35 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
 
    ###### Linux uses forward slashes in URLs while Windows uses back slashes. Accordingly, please ensure that you only use forward slashes.
 
-2. **Incorporate the following components into all new pages:**
-   
-   ```$currentPage``` designation.
+2. **Starting at the document root, Add a blank ```$currentPage``` variable at the top of each page.* ***
    
    ```
    <?php $currentPage = ""; ?>
    
    ```
    
-   ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php).
+   ###### * The possible values for $currentPage will be covered later in this tutorial.
+   
+3. **Starting at the document root, add a ```require_once``` statement for [config.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php) in the ```<head>``` section each page.**
    
    ```
    <?php require_once("config.php"); ?>
    ```
    
-   * Viewport meta element.
+3. Starting at the document root, add a viewport designation in the ```<head>``` section of each page.
    
    ```
    <meta name="viewport" content="width=device-width, initial-scale=1">
    ```
-   
-   AdaptiveNav stylesheet link.
+
+4. Starting at the document root, add the AdaptiveNav stylesheet in the ```<head>``` Section of each page.
    
    ```
    <link rel="stylesheet" type="text/css" href="<?php echo $config['paths']['css']['expanded'] . 
         $config['info']['cacheVer']; ?>">
    ```
    
-   Conditional comments for Internet Explorer 9 and below.
+5. Starting at the document root, add conditional comments for Internet Explorer 9 and below in the ```<head>``` Section of each page.
    
    ```
    <?php 
@@ -102,14 +102,14 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    "\"></script>\n\t<![endif]-->\n"; 
    ?>
    ```
-   
-   ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php).
-   
-   ```
+
+6. Starting at the document root, add a ```require_once``` statement for [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php) in the ```<body>``` section of each page.
+
+   ````
    <?php require_once(TEMPLATES_PATH . "/header.php"); ?>
    ```
-   
-   ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php).
+
+7. Starting at the document root, add a ```require_once``` statement for [loadScripts.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/loadScripts.php) in the ```<body>``` section of each page.
    
    ```
    <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
