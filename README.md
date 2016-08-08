@@ -114,7 +114,52 @@ git clone https://github.com/andrewsgardner/AdaptiveNav.git .
    <?php require_once(TEMPLATES_PATH . "/loadScripts.php"); ?>
    ```
    
-## Usage
+## Custom Menu Links
+
+The menu link paths included with AdaptiveNav are intended for demonstration purposes only.
+
+User's should configure their own path values.
+
+1. **Define the directories your header will link to in the [$headerRoutes](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/config.php#L30) array in ```config.php```.**
+   
+   Assign a unique variable name for each link path.
+   
+   ```
+   // example config settings
+   
+   $headerRoutes = array(
+        "landing_page" => "/",
+        "about_link" => "/about/",
+        "portfolio_link" => "/portfolio/",
+        "contact_link" => "/contact/"
+   );
+   ```
+
+2. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), update the array values for ```$headerRoutes``` to reflect your new link structure.**
+
+   ```
+   $headerRoutes[landing_page]
+   $headerRoutes[about_link]
+   $headerRoutes[portfolio_link]
+   $headerRoutes[contact_link]
+   ```
+
+3. **In [header.php](https://github.com/andrewsgardner/AdaptiveNav/blob/master/resources/templates/header.php), assign a unique value for ```$currentPage``` as it corresponds to each menu link.
+
+   ```$currentPage``` visually emphasizes the active page in the navigation’s menu styling.
+   
+   ```
+   ... <a href=\"" . $headerRoutes['landing_page'] . "\""?><?php if(<b>$currentPage == 'landing'</b>) echo ' class="active"'; ?> ...
+   ... <a href=\"" . $headerRoutes['about_link'] . "\""?><?php if(<b>$currentPage == 'about'</b>) echo ' class="active"'; ?> ...
+   ... <a href=\"" . $headerRoutes['portfolio_link'] . "\""?><?php if(<b>$currentPage == 'portfolio'</b>) echo ' class="active"'; ?> ...
+   ... <a href=\"" . $headerRoutes['contact_link'] . "\""?><?php if(<b>$currentPage == 'contact'</b>) echo ' class="active"'; ?> ...
+   ```
+
+
+Will finish later...
+
+
+
 1. **Set the Viewport**
 
    Insert this meta viewport tag into the ```<head>``` section of your HTML document:
