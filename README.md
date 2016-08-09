@@ -177,6 +177,7 @@ If necessary, you can change these breakpoints to best suit the needs of your we
 ## Browser Support
 * Chrome 10+
 * Internet Explorer 9+
+* Edge 13+
 * Firefox 4+
 * Opera 11+
 * Safari 5.0.5+
