@@ -2,7 +2,7 @@
 AdaptiveNav is a responsive, mobile-first navigation menu for modern web layouts. This versatile design uses media queries to detect the screen size of devices browsing your website. The menu adapts itself accordingly to present a quality user experience on computers, tablets, and smartphones.
 
 ## Demo
-Live Demo: http://www.andrewsgardner.com/code/adaptivenav/demo/
+Live Demo: http://www.andrewsgardner.com/code/adaptivenav/
 
 ## Features
 * Mobile-first responsive design.
